@@ -1,0 +1,21 @@
+AI Endpoint Detection
+Look for OpenAI, HuggingFace, or custom LLM service URLs with tokens.
+
+Dynamic LocalStorage/SessionStorage Secrets
+Scan localStorage, sessionStorage, cookies, and window objects.
+
+Sensitive Admin Console Links
+Detect /admin, /config, /dashboard, /internal, /debug.
+
+Deep DOM Metadata Search
+Search meta, data-* attributes, and <input type="hidden"> values.
+
+JWT Token Decoding
+Decode and analyze base64 headers for role/permissions inside tokens.
+
+🛡️ Bonus: Secure Use Suggestions
+Action	Why
+Use on staging domains	Catch secrets before production
+Combine with Burp Suite	Intercept JS responses & API headers
+Export results to file	Use console.log results and copy to .txt
+Share with team	Helps prevent accidental exposures
