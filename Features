@@ -1,0 +1,17 @@
+Feature	Description
+✅ Bookmarklet	Paste into a browser bookmark, click on any site
+🔍 JS/HTML Scan	Parses inline HTML and loaded JS files
+🧪 Regex Signatures	Detects common API keys, tokens, and secrets
+💾 Save to TXT	Downloads a report with all hits
+🧛 Thematic	It’s creepy, kooky, and Dracula-approved
+
+🦇 Coming Soon: Dracula’s Browser Extension
+Should you desire it, I can conjure a full browser extension version of this scanner with:
+
+Toggleable detection categories
+
+Storage to IndexedDB or synced with GitHub Gist
+
+Scan scheduling
+
+Integration with tools like Flipper Zero or Burp Suite Logger++
